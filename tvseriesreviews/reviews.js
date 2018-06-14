@@ -11,7 +11,7 @@ var empire = new Review(
     'I thought I wans\'t a  fan of musicals but after wathcing Empire I\'ve learnt its\n' +
     'not that its a musical it\'s that I just don\'t enjoy the music. This is an interesting\n' +
     'top drama series id say it\'s a sort of hood Dallas if anybody remembers that show.',
-    '<img alt="Avatar" style={"width:100%","height:100%"} class="w3-left w3-circle" src="images/empire.jpg" />'
+    '<img alt="Avatar"id="image" class="w3-circle" src="images/empire.jpg" />'
 );
 var robot = new Review(
     'Mr Robot',
@@ -25,8 +25,8 @@ var robot = new Review(
     '        watched. Without giving too much away this reminds of the film \'Fight club\'.\n' +
     '        The way this is narrated is top quality sort of like you are living inside his head.\n' +
     '        If your interested in computers this tv series is a must watch.',
-    '<img alt="Avatar" style={"width:100%","height:100%"} class="w3-left w3-circle" src="images/robot.jpg" />'
-    );
+    '<img alt="Avatar" id="image" class="thumbnail w3-circle" src="images/robot.jpg" />'
+);
 
 var breaking = new Review(
     'Breaking Bad',
@@ -40,7 +40,7 @@ var breaking = new Review(
     'and I was far from disappointed. If you didn\'t know how crystal meth was made after watching this.\n' +
     'You may be an expert. A gripping tv series and the 9.5 rating from IMdb is very much justified.</p><br><em>Also worth watching is the spin-off Better call saul this v series even though its from a different point of view is definetley\n' +
     'in my top ten.</em>',
-    '<img alt="Avatar" style={"width:100%","height:100%"} class="w3-left w3-circle" src="images/breaking.jpg" />'
+    '<img alt="Avatar" id="image" class="thumbnail w3-circle" src="images/breaking.jpg" />'
 
 );
 var narcos = new Review(
@@ -53,7 +53,8 @@ var narcos = new Review(
 
     'Even though this is in full subtitles and I\'m not the biggest fan of them this is by far\n' +
     'one of my best tv series. Maybe its the fact its based on a true story which made this\n' +
-    'one so interesting.'
+    'one so interesting.',
+    '<img alt="Avatar" id="image" class="thumbnail w3-circle" src="images/narcos.jpg" />'
 );
 var orange = new Review(
     'Orange is the new Black',
@@ -65,7 +66,8 @@ var orange = new Review(
     ' the reality of how life changing prison can really be.',
 
     'This one has plenty of jokes and small stories of the different characters in this top series.\n' +
-    'Plenty of jokes in this one as well as well as serious.'
+    'Plenty of jokes in this one as well as well as serious.',
+     '<img alt="Avatar" id="image" class="thumbnail w3-circle" src="images/orange.jpg" />'
 );
 var ozark = new Review(
     'Ozark',
@@ -76,7 +78,8 @@ var ozark = new Review(
 
     'A close friend recommended this one to me and it definitely deserves a higher\n' +
     'rating than what IMdb has given it imo. Not knowing what to expect kept me interested\n' +
-    'in this one.Another top crime based tv and I cant wait for the next series to begin.'
+    'in this one.Another top crime based tv and I cant wait for the next series to begin.',
+    '<img alt="Avatar" id="image" class="thumbnail w3-circle" src="images/ozark.jpg" />'
 );
 var power = new Review(
     'Power',
@@ -90,7 +93,8 @@ var power = new Review(
     'A gripping tv series drama watching life at the top of the new york drugs ladder\n' +
     'this one had me interested from episode one and the whole series has been\n' +
     'watched more than once. Plenty of twists and turns to be offered in this\n' +
-    'and courtesy of 50 cent and co it has some great music with it. this is definetly in my top tv series.'
+    'and courtesy of 50 cent and co it has some great music with it. this is definetly in my top tv series.',
+    '<img alt="Avatar" id="image" class="thumbnail w3-circle" src="images/power.jpg" />'
 );
 
 var ricky = new Review(
@@ -103,7 +107,8 @@ var ricky = new Review(
     'I didn\'t know what to expect when I started watching this tv series and since i\'d never heard\n' +
     'of it before I wasn\'t expecting it to take my interests. But like a bad gambler\n' +
     'my expectations were way off. This to me is a cross between Dexters Laboratory\n' +
-    'and South Park.'
+    'and South Park.',
+    '<img alt="Avatar" id="image" class="thumbnail w3-circle" src="images/rick.jpg" />'
 );
 
 

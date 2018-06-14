@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/w3pro.css">
     <link rel="stylesheet" href="css/w3-theme-indigo.css">
 <script src="js/jquery-3.3.1.min.js"></script>
@@ -43,11 +44,10 @@
     </header>
     <div id="imageInsert" class="w3-container">
 
-                <h3>Genre:</h3>
-
-                <em id="genre"></em>
-
     </div>
+    <h3>Genre:</h3>
+
+    <em id="genre"></em>
     <hr>
     <div class="w3-container">
         <h3>IMdb Rating:</h3>
