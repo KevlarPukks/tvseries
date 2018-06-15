@@ -25,18 +25,18 @@
 <body>
 
 <div class="w3-bar w3-theme-d5">
-    <button class="w3-bar-item w3-button" id="home">Home</button>
-    <button class="w3-bar-item w3-button w3-hide-small" id="music" >Music</button>
-    <button class="w3-bar-item w3-button w3-hide-small" id="tvSeries" >Tv Series</button>
-    <button class="w3-bar-item w3-button w3-hide-small" id="pukkaStudios" >Pukka Studios</button>
+    <a href="/home"><button class="w3-bar-item w3-button" id="home">Home</button></a>
+    <a href="/music"><button class="w3-bar-item w3-button w3-hide-small" id="music" >Music</button></a>
+    <a href=""><button class="w3-bar-item w3-button w3-hide-small" id="tvSeries" >Tv Series</button></a>
+   <a href="/pukkastudios"> <button class="w3-bar-item w3-button w3-hide-small" id="pukkaStudios" >Pukka Studios</button></a>
     <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="navToggle()">&#9776;</a>
 </div>
 
 <div id="nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-theme-d5">
-    <button class="w3-bar-item w3-button" id="home">Home</button>
-    <button class="w3-bar-item w3-button" id="music" >Music</button>
-    <button class="w3-bar-item w3-button" id="tvSeries" >Tv Series</button>
-    <button class="w3-bar-item w3-button" id="pukkaStudios" >Pukka Studios</button>
+   <a href="/home"><button class="w3-bar-item w3-button" id="home">Home</button></a>
+    <a href="/music"> <button class="w3-bar-item w3-button" id="music" >Music</button></a>
+    <a href=""> <button class="w3-bar-item w3-button" id="tvSeries" >Tv Series</button></a>
+    <a href="/pukkastudios"> <button class="w3-bar-item w3-button" id="pukkaStudios" >Pukka Studios</button></a>
 </div>
 
 
